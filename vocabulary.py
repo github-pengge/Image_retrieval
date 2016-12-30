@@ -3,7 +3,7 @@ from scipy.cluster.vq import *
 import numpy as np 
 import os
 import pickle
-from hierarchical_kmeans_shit_version import hierarchical_kmeans as hkmeans, tree
+from hierarchical_kmeans import hierarchical_kmeans as hkmeans, tree
 
 
 class Vocabulary(object):
